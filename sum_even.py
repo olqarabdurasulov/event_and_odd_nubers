@@ -8,5 +8,6 @@ sum_even = 0
 a = var_int%10
 b = var_int//10%10
 c = var_int//100%10
-d = var_int%1000
+d = var_int//1000
 sum_even = ((a+1)%2*a + (b+1)%2*b + (c+1)%2*c + (d+1)%2*d)
+print(sum_even)
