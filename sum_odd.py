@@ -9,4 +9,4 @@ a = var_int%10
 b = var_int//10%10
 c = var_int//100%10
 d = var_int//1000
-print((a)%2 + (b)%2 + (c)%2 + (d)%2)
+sum_even = ((a)%2 + (b)%2 + (c)%2 + (d)%2)
