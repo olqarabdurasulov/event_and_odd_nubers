@@ -9,4 +9,4 @@ a = var_int%10
 b = var_int//10%10
 c = var_int//100%10
 d = var_int//1000
-sum_odd = ((a)%2 + (b)%2 + (c)%2 + (d)%2)
+sum_odd = ((a)%2*a + (b)%2*b + (c)%2*c + (d)%2*d)
